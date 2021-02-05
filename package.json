@@ -1,0 +1,32 @@
+{
+    "name": "crypto-magic",
+    "description": "crypto related functions",
+    "license": "MIT",
+    "version": "0.1.0",
+    "keywords": [],
+    "author": "Andi Dittrich",
+    "homepage": "https://github.com/npkgz/crypto-magic",
+    "bugs": "https://github.com/npkgz/crypto-magic/issues",
+    "repository": "npkgz/crypto-magic",
+    "files": [
+        "crypto-magic.js",
+        "lib/"
+    ],
+    "main": "./crypto-magic.js",
+    "bin": {},
+    "engines": {
+        "node": ">=10"
+    },
+    "scripts": {
+        "lint": "eslint .js lib/**.js",
+        "test": "mocha test/**/*.test.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "benchmark": "^2.1.4",
+        "eslint": "^7.19.0",
+        "eslint-config-aenondynamics": "^0.2.0",
+        "mocha": "^8.2.1",
+        "uuid": "^8.3.2"
+    }
+}
